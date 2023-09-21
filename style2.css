@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.content1{
+    width: 1200px;
+    height: 0%;
+    margin: 0%;
+    color: #ffffff;
+    position: relative;
+
+}
+.content1 span{
+    color: #ff7200;
+    font-size: 65px
+}
+.content1 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: auto;
+    letter-spacing: 2px;
+}
+.content2{
+    width: 1200px;
+    height: 48%;
+    margin: 0%;
+    color: #fff;
+    position: relative;
+}
+.content2 .par{
+    width: 1200px;
+    height: 50%;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.form{
+    width: 380px;
+    height: 620px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10%;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.blogPost {
+    background: #ccc;
+    background-color: #ccc;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+  .blogPost h2 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 24%; 
+    font-family: Arial ;
+    color: #000000;
+  }
+  
+  .blogPost p {
+    font-weight: bold;
+    margin-top: 2%; 
+    font-family: Arial ;
+    margin-left: 38%;
+    color: #000000;
+    width: 800px;
+    height: 300px;
+    position: absolute;
+  }
+  
+  .blogPost img,
+  .blogPost video {
+    width: 500px;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    position: centre;
+  }
+
+ 
